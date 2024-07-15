@@ -21,11 +21,32 @@
 
 // Quesion 3
 // Check wether the two numbers have same last digit or not
-let numberOne = prompt("enter first number.");
-let numberSecond = prompt("enter second number.");
+// let numberOne = prompt("enter first number.");
+// let numberTwo = prompt("enter second number.");
 
-if (numberOne.length - 1 == numberSecond.length - 1) {
-  console.log("Both of them have same last number.");
-} else {
-  console.log("Both of them have different last numbrt");
-}
+// if (numberOne % 10 == numberTwo % 10) {
+//   console.log("Both of them have same last number.");
+// } else {
+//   console.log("Both of them have different last number");
+// }
+
+// Question 3
+
+// let number = 1;
+// switch (number) {
+//   case 1:
+//     console.log("Months in Quater 1: January, February, March.");
+//     break;
+//   case 2:
+//     console.log("Months in Quater 2: April, May, June.");
+//     break;
+//   case 3:
+//     console.log("Months in Quater 3: July, August, September.");
+//     break;
+//   case 4:
+//     console.log("Months in Quater 4: Octuber, November, December.");
+//     break;
+//   default:
+//     console.log("Error.");
+//     break;
+// }

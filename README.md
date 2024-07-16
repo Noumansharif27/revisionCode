@@ -1,6 +1,6 @@
 # String.methods()
 
-** Strings in JavaScript **
+<h2> Strings in JavaScript </h2>
 
 - strings in JS are immutable which means it dosen't matter what string.method() you apply to it the original string will always be the same as it was before the method.
 

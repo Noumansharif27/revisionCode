@@ -6,7 +6,90 @@
     <title>day-2</title>
   </head>
   <body>
-    <h1>HI!</h1>
+    <h2>String.methods()</h2>
+    <p>
+      <strong>Strings in JavaScript :</strong> strings in JS are immutable which
+      means it dosen't matter what string.method() you apply to it the original
+      string will always be the same as it was before the method.
+    </p>
+
+    <ul>
+      <li>
+        <strong>trim()</strong>
+
+        trim method is use to erase all the extra spaces before and after a
+        string. <br />
+        It is not able to remove the extra spaces between a <br />
+        <strong>e.g.</strong> <br />
+        let message = " H I !"; <br />
+        <strong>output</strong> <br />
+        H I!
+      </li>
+
+      <li>
+        <strong>slice()</strong> <br />
+        <br />
+
+        .slice() method is use to cut a string and return us a new string with a
+        sliced values.
+
+        <br />
+
+        <strong>e.g.</strong> <br />
+        let msg = "2ApnaCollege"; <br />
+        msg.slice(1, 5) <br />
+        <strong>output</strong> <br />
+        <!-- In the second option the last number is not included. -->
+        - Apna
+      </li>
+
+      <li>
+        <strong>indexOf()</strong> <br />
+        .indexOf() method is use to gives us the index of letter we wanted.
+        <br />
+        <strong>e.g.</strong> <br />
+        let msg = "ApnaCollege; <br />
+        msg.indexOf("na"); <br />
+        <strong>output</strong> <br />
+        2
+      </li>
+
+      <li>
+        <strong>replace()</strong> <br />
+        .repeat() is use to replace letter. <br />
+        <strong>e.g.</strong> <br />
+        let msg = "Apple"; <br />
+        msg.replace("a", "b"); <br />
+        <strong>output</strong> <br />
+        bapple
+      </li>
+
+      <li>
+        <strong>repeat()</strong> <br />
+        This method is used to repeat a latter for a set number of times. <br />
+        <strong>.e.g</strong> <br />
+        let latter = "coding"; <br />
+        latter.repeat(3); <br />
+        <strong>output</strong> <br />
+        codingcodingcoding
+      </li>
+    </ul>
+
+    <h2>Array</h2>
+    <p>A linear collection of data/things.</p>
+
+    <p>
+      <strong>Arrays are Mutable :</strong>it means every change you made to an
+      array will affect the original array. <br />
+
+      <strong>e.g.</strong> <br />
+      let arr = ["Adam", "Bob", "Carlos"]; <br />
+      arr[0] = "Diana"; <br />
+      console.log(arr); <br />
+
+      <strong>output</strong> <br />
+      ["Diana", "Bob", "Carlos"]
+    </p>
 
     <script src="app.js"></script>
   </body>

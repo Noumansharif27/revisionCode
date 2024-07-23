@@ -48,3 +48,7 @@ console.log(arr.concat(array)); // ["january", "june","march", "august", "Adam",
 // concat  method in array is not mutable which means by reversing an array it does not change the original array we have to make a variable to store the new array with the new changes
 
 let cars = ["audi", "civic", "maruti", "toyota"];
+cars.slice(); // ["audi", "civic", "maruti", "toyota"] it is use to return full array.
+cars.slice(2, 3); // ["maruti"] the last index is not included.
+cars.slice(2); // ["audi", "civic", "maruti", "toyota"] it is use to return full array afther the given index.
+cars.slice(); // ["audi", "civic", "maruti", "toyota"] it is use to return full array

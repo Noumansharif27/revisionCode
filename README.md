@@ -8,6 +8,7 @@ let msg = "ApnaCollege";
 - trim()
 
   - trim method is use to erase all the extra spaces before and after a string.
+
   - It is not able to remove the extra spaces between a string.
     - **e.g.**
       - let message = " H I !";
@@ -28,6 +29,7 @@ let msg = "ApnaCollege";
 - indexOf()
 
   - .indexOf() method is use to gives us the index of letter we wanted.
+
     - **e.g.**
       - let msg = "ApnaCollege;
         msg.indexOf("na")
@@ -37,6 +39,7 @@ let msg = "ApnaCollege";
 - replace()
 
   - .repeat() is use to replace letter.
+
     - **e.g.**
       let msg = "Apple";
       msg.replace("a", "b");
@@ -44,7 +47,9 @@ let msg = "ApnaCollege";
       bapple
 
 - repeat()
+
   - This method is used to repeat a latter for a set number of times.
+
     - **.e.g**
       let latter = "coding"
       latter.repeat(3)
@@ -57,7 +62,7 @@ let msg = "ApnaCollege";
 
 let student = [Adam, Bob, Carlos];
 
-**Arrays are Mutable** : it means every change you made to an array will affect the original array. -**e.g.**
+**Arrays are Mutable** : it means every change you made to an array will affect the original array.
 
 - **e.g.**  
   let arr = ["Adam", "Bob", "Carlos"];

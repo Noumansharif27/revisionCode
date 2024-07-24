@@ -71,3 +71,29 @@ let student = [Adam, Bob, Carlos];
 
 - **output**
   ["Diana", "Bob", "Carlos"]
+
+- splice :
+
+  - use to remove/replace and add element in place. this method will affect the original copy of an array.
+  - **syntax :** splice(start, deleteCount, item(0), item(n));
+  - **e.g.**
+    let cars = ["odi", "BMW", "Ferrari", "Mercedes", "Toyota"];
+    cars.splice(1 , 2, "Mehran"); // from index (1) delete (2) elements and place there "Mehra"
+  - **output**
+    ["odi","Mehran", "Mercedes", "Toyota"]
+
+- **sort :**
+
+  - this method is use to sort an array. **IMP :** this method of array only works with alphabets and characters we cannot use this method on numbers. the reason
+    is that because in deep down this method first convert array's elements into strings and then converts them into order. it means it uses it's **UTFC** number to determine which word/character would accupied an index first.7
+  - **e.g.**
+    let marks = [100, 89, 99, 70, 64];
+    marks.sort();
+  - **output**
+     [100, 64, 70, 89, 99]
+
+  - **e.g.**
+    let cars = ["odi", "BMW", "Ferrari", "Mercedes", "Toyota"];
+    cars.sort();
+  - **output**
+    ['BMW', 'Mehran', 'Mercedes', 'Toyota', 'odi']

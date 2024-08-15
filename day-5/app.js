@@ -47,35 +47,36 @@
 //   });
 // }
 
-// saveToDb("Hi")
-//   .then(() => {
-//     console.log("Data-1 was saved.");
-//     return saveToDb("hello");
-//   })
-//   .then(() => {
-//     console.log("Data-2 was saved.");
-//     return saveToDb("hello world");
-//   })
-//   .then(() => {
-//     console.log("Data-3 was saved.");
-//   })
-//   .catch(() => {
-//     console.log("Network error.");
-//   });
+/* saveToDb("Hi")
+  .then(() => {
+    console.log("Data-1 was saved.");
+    return saveToDb("hello");
+  })
+  .then(() => {
+    console.log("Data-2 was saved.");
+    return saveToDb("hello world");
+  })
+  .then(() => {
+    console.log("Data-3 was saved.");
+  })
+  .catch(() => {
+    console.log("Network error.");
+  }); */
 
-let h2 = document.querySelector("h2");
-function colorChanging(color) {
-  return new promise((resolved, rejected) => {
+/* function colorChanging(color) {
+  return new Promise((resolved, rejected) => {
     setTimeout(() => {
       h2.style.color = color;
+      resolved("request was successfull.");
     }, 1000);
   });
 }
 
 let callingColor = async () => {
-  colorChanging("red");
-  colorChanging("orange");
-  colorChanging("pink");
-  colorChanging("yellow");
+  await colorChanging("red");
+  await colorChanging("green");
+  await colorChanging("purple");
+  await colorChanging("yellow");
   colorChanging("blue");
 };
+ */

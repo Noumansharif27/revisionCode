@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thread</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="brand-name">Thread</h1>
+      <a href="/thread/new" class="new-thread-btn">New Thread</a>
+      <div class="threads">
+        <%for (let i = 0; i < threads.length; i++) { %>
+        <div class="thread">
+          <h2 class="username">@<%= threads[i].username %></h2>
+          <p class="content"><%= threads[i].content %></p>
+        </div>
+        <% }%>
+      </div>
+    </div>
+  </body>
+</html>

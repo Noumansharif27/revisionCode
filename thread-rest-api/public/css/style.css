@@ -28,12 +28,13 @@ body {
 
 .thread {
   padding: 1rem;
-  width: 27dvw;
-  height: 30dvh;
+  width: 30dvw;
+  height: 40dvh;
   background-color: #080808;
   box-shadow: 8px 8px 10px -1px #0b0b0b, -8px -8px 10px -1px #000000;
   margin-bottom: 1rem;
   border-radius: 1rem;
+  position: relative;
 }
 
 .brand-name {
@@ -43,20 +44,6 @@ body {
 
 .username {
   margin: 1rem 0;
-}
-
-.new-thread-btn {
-  position: absolute;
-  left: 15%;
-  top: 2rem;
-  height: 7dvh;
-  width: 10dvw;
-  background-color: #080808;
-  box-shadow: 8px 8px 10px -1px #0b0b0b, -8px -8px 10px -1px #000000;
-  text-align: center;
-  padding-top: 0.8rem;
-  border-radius: 2rem;
-  text-decoration: none;
 }
 
 .new-thread {
@@ -85,7 +72,7 @@ input:focus {
   background-color: #2f2f2f;
 }
 
-textarea {
+.content {
   margin-top: 2rem;
   padding: 1rem;
   border-radius: 1rem;
@@ -111,4 +98,65 @@ textarea:focus {
   text-decoration: none;
   border: none;
   font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.detail-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.98rem;
+  width: 11dvw;
+  left: 25%;
+  bottom: 5%;
+}
+
+.edit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.98rem;
+  width: 7dvw;
+  left: 58%;
+  bottom: 5%;
+}
+
+.delete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.98rem;
+  width: 7dvw;
+  left: 84%;
+  bottom: 5%;
+  color: #e92020;
+}
+
+.delete-btn:hover {
+  color: red;
+}
+
+.detail-thread {
+  height: 50dvh;
+}
+
+.btn:active {
+  box-shadow: inset -8px -8px 10px -1px #0b0b0b, inset 8px 8px 10px -1px #000000;
+}
+
+.new-thread-btn {
+  position: absolute;
+  left: 20%;
+  top: 2rem;
+  height: 10dvh;
+  width: 9dvw;
+  background-color: #080808;
+  box-shadow: 8px 8px 10px -1px #0b0b0b, -8px -8px 10px -1px #000000;
+  text-align: center;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-size: 0.9rem;
 }

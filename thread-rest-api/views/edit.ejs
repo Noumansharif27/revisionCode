@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thread edit</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="new-thread">
+      <h2 class="id">id : <%= thread.id %></h2>
+      <h2 class="username">@<%= thread.username %></h2>
+
+      <form action="/thread/<%= thread.id %>?_method=PATCH" method="post">
+        <textarea name="content" class="content" cols="40" rows="15">
+<%= thread.content %></textarea
+        >
+        <button class="btn">Update</button>
+      </form>
+    </div>
+  </body>
+</html>

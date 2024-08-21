@@ -9,12 +9,26 @@
   <body>
     <div class="container">
       <h1 class="brand-name">Thread</h1>
-      <a href="/thread/new" class="new-thread-btn">New Thread</a>
+      <a href="/thread/new" class="new-thread-btn btn">New Thread</a>
       <div class="threads">
         <%for (let i = 0; i < threads.length; i++) { %>
         <div class="thread">
           <h2 class="username">@<%= threads[i].username %></h2>
-          <p class="content"><%= threads[i].content %></p>
+          <p class="content" name="content"><%= threads[i].content %></p>
+          <a href="/thread/<%= threads[i].id %>" class="btn detail-btn"
+            >See details</a
+          >
+          <a href="/thread/<%= threads[i].id %>/edit" class="edit-btn btn"
+            >Edit</a
+          >
+          <form
+            action="/thread/<%= threads[i].id %>?_method=DELETE"
+            method="post"
+          >
+            <button type="submit" href="/thread" class="delete-btn btn">
+              Delete
+            </button>
+          </form>
         </div>
         <% }%>
       </div>

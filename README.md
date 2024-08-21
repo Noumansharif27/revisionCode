@@ -1,6 +1,6 @@
 # String.methods()
 
-**Strings in JavaScript** : strings in JS are immutable which means it dosen't matter what string.method() you apply to it the original string will always be the same as it was before the method.
+    Strings in JavaScript : strings in JS are immutable which means it dosen't matter what string.method() you apply to it the original string will always be the same as it was before the method.
 
 - **trim()**
 
@@ -56,9 +56,9 @@
 
 # Array[]
 
-----A linear collection of data/things.-----
+    A linear collection of data/things.
 
-**Arrays are Mutable** : it means every change you made to an array will affect the original array.
+    Arrays are Mutable : it means every change you made to an array will affect the original array.
 
 **e.g. :** <br />
 let arr = ["Adam", "Bob", "Carlos"]; <br />
@@ -171,7 +171,7 @@ console.log(arr);
 
 # Object Literels {}
 
-**Object Literels :** An object is created as a pair of key : value incide a pair of curly-braces {}, and we can access it's value using same array's method but instead of giving the index value we have to give it the key-name.
+    Object Literels : An object is created as a pair of key : value incide a pair of curly-braces {}, and we can access it's value using same array's method but instead of giving the index value we have to give it the key-name.
 
 **Note :** It is important to clearly know the diffrence similarities and diffrences between object Lliterels and Arrays.
 
@@ -202,7 +202,7 @@ key: valur, <br>
 
 # Functions
 
-**Functions :** A set of code which can be used mutiple time just by calling it.
+    Functions : A set of code which can be used mutiple time just by calling it.
 
 **syntax :** <br>
 

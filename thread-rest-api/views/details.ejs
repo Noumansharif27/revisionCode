@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thread Detail</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="thread-details">
+      <h1 class="brand-name">thread details</h1>
+      <div class="thread detail-thread">
+        <h2 class="id">id : <%= thread.id %></h2>
+        <h2 class="username">@<%= thread.username %></h2>
+        <p class="content" name="content"><%= thread.content %></p>
+        <a href="/thread" class="btn">Go back</a>
+      </div>
+    </div>
+  </body>
+</html>
